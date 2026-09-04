@@ -4,7 +4,7 @@
   "description": "Gerenciador e instalador de skills para assistentes de IA via npx",
   "type": "module",
   "bin": {
-    "skills": "./dist/bin.js"
+    "skills": "dist/bin.js"
   },
   "files": [
     "dist"
