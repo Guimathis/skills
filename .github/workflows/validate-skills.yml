@@ -1,0 +1,27 @@
+name: Validate Skills & Catalog
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install
+      - run: npm run build
+      - name: Verify SKILL.md in all skill folders
+        run: |
+          for dir in skills/*/; do
+            if [ ! -f "${dir}SKILL.md" ]; then
+              echo "Error: ${dir} does not contain SKILL.md"
+              exit 1
+            fi
+          done
+          echo "All skills contain SKILL.md"

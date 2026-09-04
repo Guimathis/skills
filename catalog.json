@@ -1,0 +1,32 @@
+[
+  {
+    "name": "api-conventions",
+    "description": "REST API design, OpenAPI/Swagger documentation, input DTO and response conventions.",
+    "version": "1.0.0"
+  },
+  {
+    "name": "exception-handling-conventions",
+    "description": "Standardized exception handling and error response conventions for Spring Boot REST APIs.",
+    "version": "1.0.0"
+  },
+  {
+    "name": "jpa-conventions",
+    "description": "JPA entity, repository and schema conventions for persistent data modeling.",
+    "version": "1.0.0"
+  },
+  {
+    "name": "requirement-writer",
+    "description": "Guides users through structured requirements gathering (Problem Framing, SRD, PRD).",
+    "version": "1.0.0"
+  },
+  {
+    "name": "save-last-response",
+    "description": "Extracts the complete previous AI response and saves it as a structured Markdown file.",
+    "version": "1.0.0"
+  },
+  {
+    "name": "skill-creator",
+    "description": "Create new skills, modify and improve existing skills, and measure skill performance.",
+    "version": "1.0.0"
+  }
+]

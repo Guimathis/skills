@@ -1,0 +1,44 @@
+{
+  "name": "@guimathis/skills",
+  "version": "0.1.0",
+  "description": "Gerenciador e instalador de skills para assistentes de IA via npx",
+  "type": "module",
+  "bin": {
+    "skills": "./dist/bin.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "keywords": [
+    "skills",
+    "antigravity",
+    "gemini",
+    "claude-code",
+    "ai-agents",
+    "prompt-engineering"
+  ],
+  "author": "guimathis",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "commander": "^12.1.0",
+    "picocolors": "^1.1.0",
+    "tar": "^7.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/tar": "^6.1.13",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
