@@ -1,13 +1,13 @@
-# ⚡ @guimathis/skills
+# @guimathis/skills  [![npm version](https://img.shields.io/npm/v/@guimathis/skills.svg)](https://www.npmjs.com/package/@guimathis/skills) 
 
 > Central de skills para assistentes de IA (Google Antigravity / Gemini CLI, Claude Code e outros) com instalador sob demanda via `npx`.
 
-[![npm version](https://img.shields.io/npm/v/@guimathis/skills.svg)](https://www.npmjs.com/package/@guimathis/skills)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+> ![Claude](https://img.shields.io/badge/claude-%23D97757.svg?style=for-the-badge&logo=claude&logoColor=white) ![Google Gemini](https://img.shields.io/badge/google%20gemini-%238E75B2.svg?style=for-the-badge&logo=google%20gemini&logoColor=white) ![Cursor](https://img.shields.io/badge/Cursor-%23000000.svg?style=for-the-badge&logo=Cursor&logoColor=white)
 
----
 
-## 🚀 Como Usar
+<video src="https://github.com/user-attachments/assets/319efabe-a5d2-42b9-bd93-d210d9976746" controls></video>
+
+## Como Usar
 
 Você não precisa clonar este repositório nem instalar nada globalmente. Basta rodar o comando abaixo no terminal:
 
@@ -19,7 +19,7 @@ Um menu interativo será exibido permitindo selecionar quais skills você deseja
 
 ---
 
-## 🛠️ Comandos Diretos (CLI)
+## Comandos Diretos (CLI)
 
 Para automação rápida em scripts ou no terminal:
 
@@ -51,7 +51,7 @@ npx @guimathis/skills list
 
 ---
 
-## 📦 Catálogo de Skills Disponíveis
+## Catálogo de Skills Disponíveis
 
 | Skill | Descrição |
 |-------|-----------|
@@ -64,7 +64,7 @@ npx @guimathis/skills list
 
 ---
 
-## 📂 Estrutura do Monorepo
+## Estrutura do Monorepo
 
 ```
 skills/
@@ -97,7 +97,7 @@ skills/
 
 ---
 
-## ➕ Como Adicionar uma Nova Skill
+## Como Adicionar uma Nova Skill
 
 Para instruções completas e detalhadas, consulte o **[Guia para Adicionar Novas Skills](docs/guia-adicionar-novas-skills.md)**.
 
@@ -112,11 +112,11 @@ Resumo dos passos:
    git commit -m "feat(skills): adiciona skill <nome>"
    git push origin main
    ```
-> ✨ O CLI busca o catálogo e o conteúdo diretamente do GitHub na branch `main`. Novas skills ficam disponíveis imediatamente para todos os usuários sem necessidade de republicação no npm!
+>  O CLI busca o catálogo e o conteúdo diretamente do GitHub na branch `main`. Novas skills ficam disponíveis imediatamente para todos os usuários sem necessidade de republicação no npm!
 
 ---
 
-## 💻 Desenvolvimento do CLI
+## Desenvolvimento do CLI
 
 Para detalhes sobre o ciclo de lançamentos, SemVer, npm audit e segurança, consulte o **[Guia de Atualização, Versionamento e Segurança](docs/guia-atualizacao-e-versionamento.md)**.
 
