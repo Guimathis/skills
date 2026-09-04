@@ -73,6 +73,7 @@ skills/
 │   └── validate-skills.yml   # Validação de integridade do catálogo
 ├── catalog.json              # Manifesto oficial de skills
 ├── docs/                     # Especificações e arquitetura
+│   ├── guia-adicionar-novas-skills.md
 │   ├── SRD-skills-repository-and-npm-installer.md
 │   ├── PRD-skills-repository-and-npm-installer.md
 │   └── review-log.md
@@ -97,6 +98,9 @@ skills/
 
 ## ➕ Como Adicionar uma Nova Skill
 
+Para instruções completas e detalhadas, consulte o **[Guia para Adicionar Novas Skills](docs/guia-adicionar-novas-skills.md)**.
+
+Resumo dos passos:
 1. Crie uma nova pasta dentro de `skills/<nome-da-sua-skill>/`.
 2. Adicione seu arquivo `SKILL.md` contendo o cabeçalho YAML (`name` e `description`) e as instruções.
 3. Adicione quaisquer pastas auxiliares necessárias (`references/`, `scripts/`, etc.).
@@ -104,7 +108,7 @@ skills/
 5. Faça o commit e envie para a branch `main`:
    ```bash
    git add .
-   git commit -m "feat: adiciona skill <nome>"
+   git commit -m "feat(skills): adiciona skill <nome>"
    git push origin main
    ```
 > ✨ O CLI busca o catálogo e o conteúdo diretamente do GitHub na branch `main`. Novas skills ficam disponíveis imediatamente para todos os usuários sem necessidade de republicação no npm!
