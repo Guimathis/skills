@@ -74,6 +74,7 @@ skills/
 ├── catalog.json              # Manifesto oficial de skills
 ├── docs/                     # Especificações e arquitetura
 │   ├── guia-adicionar-novas-skills.md
+│   ├── guia-atualizacao-e-versionamento.md
 │   ├── SRD-skills-repository-and-npm-installer.md
 │   ├── PRD-skills-repository-and-npm-installer.md
 │   └── review-log.md
@@ -116,6 +117,8 @@ Resumo dos passos:
 ---
 
 ## 💻 Desenvolvimento do CLI
+
+Para detalhes sobre o ciclo de lançamentos, SemVer, npm audit e segurança, consulte o **[Guia de Atualização, Versionamento e Segurança](docs/guia-atualizacao-e-versionamento.md)**.
 
 Se você quiser contribuir ou testar alterações no CLI localmente:
 
